@@ -1,11 +1,11 @@
-import { CountButton } from "~features/count-button"
-
+import { WaybackMachine } from "~features/wayback-machine"
+import "~i18n"
 import "~style.css"
 
 function IndexPopup() {
   return (
-    <div className="plasmo-flex plasmo-items-center plasmo-justify-center plasmo-h-16 plasmo-w-40">
-      <CountButton />
+    <div className="plasmo-min-h-screen plasmo-bg-white">
+      <WaybackMachine />
     </div>
   )
 }

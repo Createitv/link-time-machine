@@ -1,0 +1,39 @@
+{
+  "app": {
+    "title": "🕰️ LinkTime Machine",
+    "description": "链接时光机 - 查看网页历史快照"
+  },
+  "currentTab": {
+    "title": "当前页面",
+    "button": "查看当前页面快照"
+  },
+  "urlInput": {
+    "label": "或输入任意 URL",
+    "placeholder": "https://google.com",
+    "button": "搜索"
+  },
+  "contextMenu": {
+    "viewSnapshot": "查看历史快照 (View Historical Snapshot)",
+    "viewCurrentSnapshot": "查看当前页面快照 (View Current Page Snapshot)"
+  },
+  "messages": {
+    "pleaseEnterUrl": "请输入 URL",
+    "pleaseEnterValidUrl": "请输入有效的 URL",
+    "searching": "搜索中...",
+    "foundSnapshot": "找到快照: {{date}}",
+    "foundDomainSnapshot": "找到主域名快照: {{date}}",
+    "noArchiveFound": "未找到此页面及其主域名的存档",
+    "noPageArchiveFound": "未找到此页面的存档",
+    "errorFetching": "获取快照时出错: {{error}}",
+    "unknownError": "未知错误",
+    "cannotGetCurrentUrl": "无法获取当前页面URL",
+    "noArchiveFoundNotification": "未找到存档 - {{domain}}",
+    "errorFetchingNotification": "获取历史快照时出错"
+  },
+  "instructions": {
+    "title": "💡 使用技巧",
+    "rightClickLink": "右键点击任何链接选择'查看历史快照'",
+    "rightClickPage": "右键点击页面选择'查看当前页面快照'",
+    "enterUrl": "在此输入任意 URL 查看其历史版本"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "app": {
+    "title": "🕰️ LinkTime Machine",
+    "description": "Link Time Machine - View Historical Web Snapshots"
+  },
+  "currentTab": {
+    "title": "Current Page",
+    "button": "View Current Page Snapshot"
+  },
+  "urlInput": {
+    "label": "Or Enter Any URL",
+    "placeholder": "https://google.com",
+    "button": "Search"
+  },
+  "contextMenu": {
+    "viewSnapshot": "View Historical Snapshot",
+    "viewCurrentSnapshot": "View Current Page Snapshot"
+  },
+  "messages": {
+    "pleaseEnterUrl": "Please enter a URL",
+    "pleaseEnterValidUrl": "Please enter a valid URL",
+    "searching": "Searching...",
+    "foundSnapshot": "Snapshot found: {{date}}",
+    "foundDomainSnapshot": "Domain snapshot found: {{date}}",
+    "noArchiveFound": "No archive found for this page or its domain",
+    "noPageArchiveFound": "No archive found for this page",
+    "errorFetching": "Error fetching snapshot: {{error}}",
+    "unknownError": "Unknown error",
+    "cannotGetCurrentUrl": "Cannot get current page URL",
+    "noArchiveFoundNotification": "No archive found - {{domain}}",
+    "errorFetchingNotification": "Error fetching historical snapshot"
+  },
+  "instructions": {
+    "title": "💡 Usage Tips",
+    "rightClickLink": "Right-click any link and select \"View Historical Snapshot\"",
+    "rightClickPage": "Right-click the page and select \"View Current Page Snapshot\"",
+    "enterUrl": "Enter any URL here to view its historical versions"
+  }
+}

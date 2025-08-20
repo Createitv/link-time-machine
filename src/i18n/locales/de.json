@@ -1,0 +1,39 @@
+{
+  "app": {
+    "title": "🕰️ LinkTime Machine",
+    "description": "Link-Zeitmaschine - Historische Web-Schnappschüsse Anzeigen"
+  },
+  "currentTab": {
+    "title": "Aktuelle Seite",
+    "button": "Schnappschuss der Aktuellen Seite Anzeigen"
+  },
+  "urlInput": {
+    "label": "Oder Beliebige URL Eingeben",
+    "placeholder": "https://google.com",
+    "button": "Suchen"
+  },
+  "contextMenu": {
+    "viewSnapshot": "Historischen Schnappschuss Anzeigen",
+    "viewCurrentSnapshot": "Schnappschuss der Aktuellen Seite Anzeigen"
+  },
+  "messages": {
+    "pleaseEnterUrl": "Bitte geben Sie eine URL ein",
+    "pleaseEnterValidUrl": "Bitte geben Sie eine gültige URL ein",
+    "searching": "Suche läuft...",
+    "foundSnapshot": "Schnappschuss gefunden: {{date}}",
+    "foundDomainSnapshot": "Domain-Schnappschuss gefunden: {{date}}",
+    "noArchiveFound": "Kein Archiv für diese Seite oder ihre Domain gefunden",
+    "noPageArchiveFound": "Kein Archiv für diese Seite gefunden",
+    "errorFetching": "Fehler beim Abrufen des Schnappschusses: {{error}}",
+    "unknownError": "Unbekannter Fehler",
+    "cannotGetCurrentUrl": "Aktuelle Seiten-URL kann nicht abgerufen werden",
+    "noArchiveFoundNotification": "Kein Archiv gefunden - {{domain}}",
+    "errorFetchingNotification": "Fehler beim Abrufen des historischen Schnappschusses"
+  },
+  "instructions": {
+    "title": "💡 Nutzungstipps",
+    "rightClickLink": "Rechtsklick auf einen beliebigen Link und \"Historischen Schnappschuss Anzeigen\" auswählen",
+    "rightClickPage": "Rechtsklick auf die Seite und \"Schnappschuss der Aktuellen Seite Anzeigen\" auswählen",
+    "enterUrl": "Geben Sie hier eine beliebige URL ein, um ihre historischen Versionen zu sehen"
+  }
+}

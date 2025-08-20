@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,4 +7,43 @@
 #plasmo-shadow-container {
   all: initial;
   box-sizing: border-box;
+}
+
+/* Custom styles for modern black/white theme */
+.plasmo-extension-root {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Enhance button hover effects */
+.plasmo-btn-primary {
+  @apply plasmo-bg-black plasmo-text-white plasmo-px-4 plasmo-py-2 plasmo-rounded-lg;
+  @apply plasmo-font-medium plasmo-transition-all plasmo-duration-200;
+  @apply hover:plasmo-bg-gray-800 hover:plasmo-shadow-lg;
+  @apply active:plasmo-scale-[0.98] active:plasmo-shadow-sm;
+}
+
+.plasmo-btn-primary:disabled {
+  @apply plasmo-bg-gray-400 plasmo-cursor-not-allowed;
+  @apply hover:plasmo-bg-gray-400 hover:plasmo-shadow-none;
+  @apply active:plasmo-scale-100;
+}
+
+/* Enhanced input styles */
+.plasmo-input-primary {
+  @apply plasmo-px-3 plasmo-py-2 plasmo-border plasmo-border-gray-300 plasmo-rounded-lg;
+  @apply plasmo-bg-white plasmo-text-gray-900;
+  @apply focus:plasmo-outline-none focus:plasmo-ring-2 focus:plasmo-ring-black focus:plasmo-border-transparent;
+  @apply plasmo-transition-all plasmo-duration-200;
+}
+
+/* Card styles */
+.plasmo-card {
+  @apply plasmo-bg-white plasmo-border plasmo-border-gray-200 plasmo-rounded-lg plasmo-shadow-sm;
+  @apply plasmo-transition-shadow plasmo-duration-200;
+}
+
+.plasmo-card-hover {
+  @apply hover:plasmo-shadow-md;
 }

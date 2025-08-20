@@ -1,0 +1,39 @@
+{
+  "app": {
+    "title": "🕰️ LinkTime Machine",
+    "description": "Máquina del Tiempo de Enlaces - Ver Capturas Históricas Web"
+  },
+  "currentTab": {
+    "title": "Página Actual",
+    "button": "Ver Captura de la Página Actual"
+  },
+  "urlInput": {
+    "label": "O Ingrese Cualquier URL",
+    "placeholder": "https://google.com",
+    "button": "Buscar"
+  },
+  "contextMenu": {
+    "viewSnapshot": "Ver Captura Histórica",
+    "viewCurrentSnapshot": "Ver Captura de la Página Actual"
+  },
+  "messages": {
+    "pleaseEnterUrl": "Por favor ingrese una URL",
+    "pleaseEnterValidUrl": "Por favor ingrese una URL válida",
+    "searching": "Buscando...",
+    "foundSnapshot": "Captura encontrada: {{date}}",
+    "foundDomainSnapshot": "Captura del dominio encontrada: {{date}}",
+    "noArchiveFound": "No se encontró archivo para esta página o su dominio",
+    "noPageArchiveFound": "No se encontró archivo para esta página",
+    "errorFetching": "Error al obtener captura: {{error}}",
+    "unknownError": "Error desconocido",
+    "cannotGetCurrentUrl": "No se puede obtener la URL de la página actual",
+    "noArchiveFoundNotification": "No se encontró archivo - {{domain}}",
+    "errorFetchingNotification": "Error al obtener captura histórica"
+  },
+  "instructions": {
+    "title": "💡 Consejos de Uso",
+    "rightClickLink": "Haz clic derecho en cualquier enlace y selecciona \"Ver Captura Histórica\"",
+    "rightClickPage": "Haz clic derecho en la página y selecciona \"Ver Captura de la Página Actual\"",
+    "enterUrl": "Ingresa cualquier URL aquí para ver sus versiones históricas"
+  }
+}

@@ -2,32 +2,44 @@
   "name": "link-time-machine",
   "displayName": "Link time machine",
   "version": "0.0.1",
-  "description": "当用户遇到 404 页面 或者想查看某个页面的历史版本时，右键该链接，选择“查看历史快照”，即可跳转到 Archive.org (Wayback Machine) 的最近快照",
+  "description": "When users encounter 404 pages or want to view the history version of a page, right-click the link, select 'View History Snapshot', and jump to the nearest snapshot of Archive.org (Wayback Machine)",
   "author": "Plasmo Corp. <foss@plasmo.com>",
   "scripts": {
     "dev": "plasmo dev",
-    "build": "plasmo build",
+    "build": "NODE_ENV=production plasmo build",
+    "build:dev": "plasmo build",
     "package": "plasmo package"
   },
   "dependencies": {
+    "i18next": "^25.3.6",
     "plasmo": "0.90.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-i18next": "^15.6.1",
     "tailwindcss": "3.4.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.3",
     "@ianvs/prettier-plugin-sort-imports": "4.1.1",
     "@types/chrome": "0.0.258",
     "@types/node": "20.11.5",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "postcss": "8.4.33",
     "prettier": "3.2.4",
     "typescript": "5.3.3"
   },
   "manifest": {
     "host_permissions": [
-      "https://*/*"
+      "https://*/*",
+      "https://archive.org/*"
+    ],
+    "permissions": [
+      "contextMenus",
+      "tabs",
+      "activeTab",
+      "notifications"
     ]
   }
 }

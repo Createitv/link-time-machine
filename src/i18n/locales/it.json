@@ -1,0 +1,39 @@
+{
+  "app": {
+    "title": "🕰️ LinkTime Machine",
+    "description": "Macchina del Tempo dei Link - Visualizza Istantanee Storiche Web"
+  },
+  "currentTab": {
+    "title": "Pagina Corrente",
+    "button": "Visualizza Istantanea della Pagina Corrente"
+  },
+  "urlInput": {
+    "label": "O Inserisci Qualsiasi URL",
+    "placeholder": "https://google.com",
+    "button": "Cerca"
+  },
+  "contextMenu": {
+    "viewSnapshot": "Visualizza Istantanea Storica",
+    "viewCurrentSnapshot": "Visualizza Istantanea della Pagina Corrente"
+  },
+  "messages": {
+    "pleaseEnterUrl": "Per favore inserisci un URL",
+    "pleaseEnterValidUrl": "Per favore inserisci un URL valido",
+    "searching": "Ricerca in corso...",
+    "foundSnapshot": "Istantanea trovata: {{date}}",
+    "foundDomainSnapshot": "Istantanea del dominio trovata: {{date}}",
+    "noArchiveFound": "Nessun archivio trovato per questa pagina o il suo dominio",
+    "noPageArchiveFound": "Nessun archivio trovato per questa pagina",
+    "errorFetching": "Errore nel recupero dell'istantanea: {{error}}",
+    "unknownError": "Errore sconosciuto",
+    "cannotGetCurrentUrl": "Impossibile ottenere l'URL della pagina corrente",
+    "noArchiveFoundNotification": "Nessun archivio trovato - {{domain}}",
+    "errorFetchingNotification": "Errore nel recupero dell'istantanea storica"
+  },
+  "instructions": {
+    "title": "💡 Suggerimenti per l'Uso",
+    "rightClickLink": "Fai clic destro su qualsiasi link e seleziona \"Visualizza Istantanea Storica\"",
+    "rightClickPage": "Fai clic destro sulla pagina e seleziona \"Visualizza Istantanea della Pagina Corrente\"",
+    "enterUrl": "Inserisci qualsiasi URL qui per vedere le sue versioni storiche"
+  }
+}

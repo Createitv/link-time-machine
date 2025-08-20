@@ -1,0 +1,39 @@
+{
+  "app": {
+    "title": "🕰️ LinkTime Machine",
+    "description": "Machine à Remonter le Temps des Liens - Voir les Captures Historiques Web"
+  },
+  "currentTab": {
+    "title": "Page Actuelle",
+    "button": "Voir la Capture de la Page Actuelle"
+  },
+  "urlInput": {
+    "label": "Ou Entrez n'importe quelle URL",
+    "placeholder": "https://google.com",
+    "button": "Rechercher"
+  },
+  "contextMenu": {
+    "viewSnapshot": "Voir la Capture Historique",
+    "viewCurrentSnapshot": "Voir la Capture de la Page Actuelle"
+  },
+  "messages": {
+    "pleaseEnterUrl": "Veuillez entrer une URL",
+    "pleaseEnterValidUrl": "Veuillez entrer une URL valide",
+    "searching": "Recherche en cours...",
+    "foundSnapshot": "Capture trouvée : {{date}}",
+    "foundDomainSnapshot": "Capture du domaine trouvée : {{date}}",
+    "noArchiveFound": "Aucune archive trouvée pour cette page ou son domaine",
+    "noPageArchiveFound": "Aucune archive trouvée pour cette page",
+    "errorFetching": "Erreur lors de la récupération de la capture : {{error}}",
+    "unknownError": "Erreur inconnue",
+    "cannotGetCurrentUrl": "Impossible d'obtenir l'URL de la page actuelle",
+    "noArchiveFoundNotification": "Aucune archive trouvée - {{domain}}",
+    "errorFetchingNotification": "Erreur lors de la récupération de la capture historique"
+  },
+  "instructions": {
+    "title": "💡 Conseils d'Utilisation",
+    "rightClickLink": "Cliquez droit sur n'importe quel lien et sélectionnez \"Voir la Capture Historique\"",
+    "rightClickPage": "Cliquez droit sur la page et sélectionnez \"Voir la Capture de la Page Actuelle\"",
+    "enterUrl": "Entrez n'importe quelle URL ici pour voir ses versions historiques"
+  }
+}

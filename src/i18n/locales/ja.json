@@ -1,0 +1,39 @@
+{
+  "app": {
+    "title": "🕰️ LinkTime Machine",
+    "description": "リンクタイムマシン - ウェブサイトの歴史スナップショットを表示"
+  },
+  "currentTab": {
+    "title": "現在のページ",
+    "button": "現在のページのスナップショットを表示"
+  },
+  "urlInput": {
+    "label": "または任意のURLを入力",
+    "placeholder": "https://google.com",
+    "button": "検索"
+  },
+  "contextMenu": {
+    "viewSnapshot": "履歴スナップショットを表示",
+    "viewCurrentSnapshot": "現在のページのスナップショットを表示"
+  },
+  "messages": {
+    "pleaseEnterUrl": "URLを入力してください",
+    "pleaseEnterValidUrl": "有効なURLを入力してください",
+    "searching": "検索中...",
+    "foundSnapshot": "スナップショットが見つかりました: {{date}}",
+    "foundDomainSnapshot": "ドメインのスナップショットが見つかりました: {{date}}",
+    "noArchiveFound": "このページまたはそのドメインのアーカイブが見つかりません",
+    "noPageArchiveFound": "このページのアーカイブが見つかりません",
+    "errorFetching": "スナップショットの取得エラー: {{error}}",
+    "unknownError": "不明なエラー",
+    "cannotGetCurrentUrl": "現在のページのURLを取得できません",
+    "noArchiveFoundNotification": "アーカイブが見つかりません - {{domain}}",
+    "errorFetchingNotification": "履歴スナップショットの取得エラー"
+  },
+  "instructions": {
+    "title": "💡 使用のヒント",
+    "rightClickLink": "任意のリンクを右クリックして「履歴スナップショットを表示」を選択",
+    "rightClickPage": "ページを右クリックして「現在のページのスナップショットを表示」を選択",
+    "enterUrl": "ここに任意のURLを入力して履歴バージョンを表示"
+  }
+}
